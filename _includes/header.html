@@ -6,6 +6,7 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+            <!-- To insert an icon, include your icon file in the directory "/assets/img/favicon/" and add here the following:  <img src=/assets/img/favicon/'name_of_your_file' alt aria-label=logo height=18 width=18></a> -->
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
