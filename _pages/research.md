@@ -2,10 +2,12 @@
 layout: page
 permalink: /research/
 title: research
-description: Click <a href="/publications/">here</a> to see the list of publications.
+description:
 nav: true
 nav_order: 5
 ---
+Click [here](/publications/) to see the list of publications.
+
 
 ### Some talks
 
