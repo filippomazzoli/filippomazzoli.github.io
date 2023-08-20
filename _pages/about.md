@@ -2,25 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.mis.mpg.de/'>Max Planck Institute for Mathematics in the Sciences</a>. Office D3 05b. Inselstraße 22, 04103 Leipzig, Germany.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: prof_pic.jpeg
+  image_circular: true # crops the image to make it circular
+  address:
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Currently I am a post-doc in Mathematics and I am part of [Anna Wienhard's research group](https://www.mis.mpg.de/geometry-groups-dynamics/index.html) at the [MPI MIS](https://www.mis.mpg.de/) in Leipzig. Later (July 2024) I will join the Math department at [UC Riverside](https://mathdept.ucr.edu/) as a tenure-track assistant professor.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+From August 2020 to May 2023, I was a post-doc at the [University of Virginia](https://math.virginia.edu), where my mentor was Prof. [Sara Maloni](https://sites.google.com/view/sara-maloni). I defended my [Ph.D. thesis](https://orbilu.uni.lu/bitstream/10993/43901/1/thesis_main.pdf) in July 2020 at the [University of Luxembourg](https://wwwen.uni.lu), under the supervision of Prof. [Jean-Marc Schlenker](http://math.uni.lu/schlenker/). I studied for my Bachelor and Master at the [University of Pisa](https://www.unipi.it/index.php/english).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My areas of research are Geometric Topology and Differential Geometry. I am particularly interested in the study of (higher) Teichmüller spaces, surface group representations, and geometric structures on low-dimensional manifolds, in  particular hyperbolic and anti-de Sitter 3-manifolds.
+
+Together with [Christian El Emam](https://math.uni.lu/elemam/) and [Nathaniel Sagman](https://sites.google.com/view/nathanielsagman/home), I am organizing a workshop titled [Metrics on higher Teichmüller spaces](https://sites.google.com/view/frejus-2023/home) in Fréjus (France), from August 28th to September 1st, 2023.
