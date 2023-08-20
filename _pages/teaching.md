@@ -6,7 +6,7 @@ description: Here is a list of the courses that I taught in the past.
 nav: true
 nav_order: 2
 display_categories: [UVA (Spring 23), UVA (Fall 22), UVA (Spring 22), UVA (Fall 21), UVA (Spring 21), UVA (Fall 20)]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
