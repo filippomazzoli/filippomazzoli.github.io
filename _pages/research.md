@@ -10,13 +10,13 @@ nav_order: 5
 ### Some talks
 
 
-+ ***Introduction to minimal surfaces and harmonic maps***, Workshop "Minimal surfaces in symmetric spaces and Labourie's conjecture" in Autrans. August 22-26, 2022 ([notes](/assets/pdf/Slides talks/082122harmonic.pdf))
-+ ***Shear-bend coordinates for pleated surfaces in PSL(d,C)***, AMS-SMF-EMS Special Meeting in Grenoble. July 20, 2022 ([slides](/assets/pdf/Slides talks/072022shearbend.pdf)).
-+ ***A para-hyperKähler structure on the space of GHMC anti-de Sitter 3-manifolds***, Heidelberg University. June 10, 2022 ([slides](/assets/pdf/Slides talks/061022parahyper.pdf)).
-+ ***Pleated surfaces for SO(2,n)-maximal representations***, University of Virginia. April 5, 2022 ([slides](/assets/pdf/Slides talks/040522pleated.pdf)).
++ ***Introduction to minimal surfaces and harmonic maps***, Workshop "Minimal surfaces in symmetric spaces and Labourie's conjecture" in Autrans. August 22-26, 2022 ([notes](https://drive.google.com/file/d/1fxvrFa1ogJ2LM0JLW-QivMh0XWdTCWyZ/view?usp=sharing))
++ ***Shear-bend coordinates for pleated surfaces in PSL(d,C)***, AMS-SMF-EMS Special Meeting in Grenoble. July 20, 2022 ([slides](https://drive.google.com/file/d/15tBP2lM8juvsnd7KZUg88UxZuVCbIR8Y/view?usp=sharing)).
++ ***A para-hyperKähler structure on the space of GHMC anti-de Sitter 3-manifolds***, Heidelberg University. June 10, 2022 ([slides](https://drive.google.com/file/d/1YfFiV57Z1mnRmT_wn9kP2hpBw370jx89/view?usp=sharing)).
++ ***Pleated surfaces for SO(2,n)-maximal representations***, University of Virginia. April 5, 2022 ([slides](https://drive.google.com/file/d/1IwPQi_J7Ueiz6LHt8GWyt6n7xgV9oDxQ/view?usp=sharing)).
 + ***Pleated surfaces for SO(2,n)-maximal representations***, 55th Spring Topology & Dynamical Systems Conference. March 12, 2022 ([recording](ttps://drive.google.com/file/d/1-bLn86AweyDhBKDvSQJkbXeWCF-pSSJz/view?usp=sharing)).
 + ***Infima of volumes of convex co-compact hyperbolic 3-manifolds***, NCNGT 2021 Conference ([recording](https://www.youtube.com/watch?v=OFIMlu_Utg4&t=748s&ab_channel=FilippoMazzoli)).
-+ ***Constant Gaussian curvature surfaces in hyperbolic 3-manifolds***, Pangolin seminar. November 3, 2020 ([slides](/assets/pdf/Slides talks/110320cgcsurfaces.pdf)).
++ ***Constant Gaussian curvature surfaces in hyperbolic 3-manifolds***, Pangolin seminar. November 3, 2020 ([slides](https://drive.google.com/file/d/1qlDo5RKAPJfav1BPDBNOpJ-NTOxnAAzr/view?usp=sharing)).
 
 ---
 
