@@ -15,7 +15,7 @@ footer_text: >
 keywords: filippo mazzoli, mazzoli math, mazzoli, mathematics, uva, virginia, luxembourg, uni lu, max planck institute, mpi mis  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /favicon/favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://filippomazzoli.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -221,6 +221,7 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-seo-tag
   - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
