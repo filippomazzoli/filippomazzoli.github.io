@@ -26,7 +26,7 @@
             <a href="https://osf.io/{{ site.osf_id }}/" title="Open Science Framework"><i class="ai ai-osf"></i></a>
             {% endif %}
             {%- if site.research_gate_profile -%}
-            <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+            <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate-square"></i></a>
             {% endif %}
             {%- if site.scopus_id -%}
             <a href="https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}" title="Scopus"><i class="ai ai-scopus"></i></a>
@@ -108,4 +108,7 @@
             {% endif %}
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
+            {% endif %}
+            {%- if site.arxiv_id -%}
+            <a href="https://arxiv.org/search/?query=Mazzoli%2C+Filippo&searchtype=author&size=50" title="ArXiv"><i class="ai ai-arxiv-square"></a>
             {% endif %}
