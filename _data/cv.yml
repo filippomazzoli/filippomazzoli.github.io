@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Filippo Mazzoli
     - name: Date of Birth
-      value: 14th March 1879
+      value: November 21st, 1992
     - name: Languages
-      value: English, German
+      value: Italian (mother tongue), English (fluent), French (basic). 
     - name: Nationality
       value: Italian
 
