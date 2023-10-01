@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.mis.mpg.de/'>Max Planck Institute for Mathematics in the Sciences</a>. Office D3 05b. Inselstraße 22, 04103 Leipzig, Germany.
+subtitle: <a href='https://www.mis.mpg.de/'>Max Planck Institute for Mathematics in the Sciences</a>. Office G2 10. Inselstraße 22, 04103 Leipzig, Germany.
 
 profile:
   align: right
