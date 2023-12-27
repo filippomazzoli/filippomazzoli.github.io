@@ -19,10 +19,6 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
-    - uses: valitydev/action-download-file@v1
-        with:
-          url: https://github.com/valitydev/action-download-file/raw/master/README.md
-          target-path: ${{ github.workspace }}/_bibliography
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
