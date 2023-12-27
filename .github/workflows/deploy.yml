@@ -19,11 +19,23 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
+    - name: Update papers.bib file
+      uses: MarketingPipeline/GitHub-Downloader-Action@main
       with:
-        ruby-version: '3.2.2'
-        bundler-cache: true
+        repo: https://github.com/MarketingPipeline/GitHub-Downloader-Action/blob/master/README.md
+        filepath: .github/_bibliography
+    - name: Commit and Push Downloaded Files
+      run: |
+         git config --global user.name "github-actions[bot]"
+         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+         git add -A
+         git commit -m "Updated Static Content"
+         git push
+    - name: Setup Ruby
+          uses: ruby/setup-ruby@v1
+          with:
+            ruby-version: '3.2.2'
+            bundler-cache: true
     - name: Install and Build 🔧
       run: |
         pip3 install --upgrade jupyter
