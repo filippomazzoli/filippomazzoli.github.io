@@ -19,7 +19,8 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
-    - uses: wow-actions/download-upload@v1
+    - name: Update papers.bib file
+      uses: wow-actions/download-upload@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: https://github.com/filippomazzoli/academic-CV/blob/main/TeX-files/papers.bib
