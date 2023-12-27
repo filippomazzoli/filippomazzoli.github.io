@@ -13,8 +13,7 @@ permissions:
   contents: write
 
 jobs:
-steps:
-- run:
+  run:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -31,7 +30,7 @@ steps:
         git commit -m "Updated Static Content"
         git push
 
-- deploy:
+  deploy:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
