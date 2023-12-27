@@ -17,20 +17,6 @@ jobs:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Update papers.bib file
-      uses: MarketingPipeline/GitHub-Downloader-Action@main
-      with:
-        repo: https://github.com/MarketingPipeline/GitHub-Downloader-Action/blob/master/README.md
-        filepath: .github/_bibliography
-    - name: Commit and Push Downloaded Files
-      run: |
-         git config --global user.name "github-actions[bot]"
-         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-         git add -A
-         git commit -m "Updated Static Content"
-         git push
-         
     - name: Checkout 🛎️
       uses: actions/checkout@v3
     - name: Setup Ruby
