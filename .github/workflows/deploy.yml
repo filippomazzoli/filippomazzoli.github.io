@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  run:
+  update:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -32,6 +32,7 @@ jobs:
        git push
 
   deploy:
+    needs: update
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
