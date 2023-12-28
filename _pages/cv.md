@@ -8,5 +8,5 @@ nav_order: 2
 cv_pdf: cv.pdf
 ---
 <div style="width: 100%; height:800">
-<iframe src="https://filippomazzoli.github.io//assets/pdf/cv.pdf" width="100%" height="800"></iframe>
+<iframe src="https://filippomazzoli.github.io//assets/pdf/main.pdf" width="100%" height="800"></iframe>
 </div>
