@@ -17,17 +17,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: MarketingPipeline/GitHub-Downloader-Action@main
+    - name: Updating `papers.bib` file from my academic-CV repository
+      uses: MarketingPipeline/GitHub-Downloader-Action@main
       with:
         repo: https://github.com/filippomazzoli/academic-CV/blob/master/TeX-files/papers.bib
         filepath: _bibliography
         overwrite: true
-    - name: Commit and Push Downloaded Files
+    - name: Commit and Push the up-to-date file  `paper.bib`
       run: |
        git config --global user.name "github-actions[bot]"
        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
        git add -A
-       git diff-index --quiet HEAD || git commit -m 'bla'
+       git diff-index --quiet HEAD || git commit -m 'Updated papers.bib from academic-CV'
        git push
 
   deploy:
