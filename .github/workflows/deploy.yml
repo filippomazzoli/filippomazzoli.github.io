@@ -19,7 +19,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: MarketingPipeline/GitHub-Downloader-Action@main
       with:
-        repo: https://github.com/filippomazzoli/academic-CV/main/TeX-files/papers.bib
+        repo: https://github.com/filippomazzoli/academic-CV/raw/main/TeX-files/papers.bib
         filepath: _bibliography
         overwrite: true
     - name: Commit and Push Downloaded Files
