@@ -17,25 +17,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: wow-actions/download-upload@v1.1.0
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          url: https://raw.githubusercontent.com/filippomazzoli/academic-CV/main/TeX-files/papers.bib
-          dir: _bibliography
-          filename: papers.bib
-    
     - uses: MarketingPipeline/GitHub-Downloader-Action@main
       with:
-        repo: https://raw.githubusercontent.com/filippomazzoli/academic-CV/main/TeX-files/papers.bib
+        repo: https://github.com/filippomazzoli/academic-CV/blob/master/README.md
         filepath: _bibliography
         overwrite: true
     - name: Commit and Push Downloaded Files
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add -A
-        git commit -m "Updated Static Content"
-        git push
+       git config --global user.name "github-actions[bot]"
+       git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+       git add -A
+       git commit -m "Updated Static Content"
+       git push
 
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
