@@ -16,7 +16,14 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+    - uses: wow-actions/download-upload@v1.1.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          url: https://raw.githubusercontent.com/filippomazzoli/academic-CV/main/TeX-files/papers.bib
+          dir: _bibliography
+          filename: papers.bib
+    
     - uses: MarketingPipeline/GitHub-Downloader-Action@main
       with:
         repo: https://raw.githubusercontent.com/filippomazzoli/academic-CV/main/TeX-files/papers.bib
