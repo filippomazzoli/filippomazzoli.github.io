@@ -1,4 +1,4 @@
-name: 'Workflow of Child REPO'
+name: 'Updates from academic-CV'
 
 on:
   workflow_dispatch:
