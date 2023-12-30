@@ -1,42 +1,15 @@
 name: deploy
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["update-cv"]
+    types:
+      - completed
 
 permissions:
   contents: write
 
 jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Updating `papers.bib` file from my academic-CV repository
-        uses: MarketingPipeline/GitHub-Downloader-Action@main
-        with:
-          repo: https://github.com/filippomazzoli/academic-CV/blob/master/TeX-files/papers.bib
-          filepath: _bibliography
-          overwrite: true
-      - name: Updating `cv.pdf` file from my academic-CV repository
-        uses: MarketingPipeline/GitHub-Downloader-Action@main
-        with:
-          repo: https://github.com/filippomazzoli/academic-CV/blob/master/TeX-files/main.pdf
-          filepath: assets/pdf
-          overwrite: true
-      - name: Commit and Push the up-to-date files  `paper.bib` and `main.pdf`
-        run: |
-         git config --global user.name "github-actions[bot]"
-         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-         git add -A
-         git diff-index --quiet HEAD || git commit -m 'Updated papers.bib and main.pdf from academic-CV'
-         git push
-
   deploy:
     needs: update
     # available images: https://github.com/actions/runner-images#available-images
