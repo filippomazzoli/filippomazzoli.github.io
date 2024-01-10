@@ -1,5 +1,17 @@
 name: deploy
 
+env:
+  SOURCE_REPO: filippomazzoli/academic-CV
+  AUTOMATIC_MONITOR: true
+  FILES: "blob/master/TeX-files/papers.bib, blob/master/TeX-files/main.pdf" # seperate multiple entries with ,
+  FILES_NEW: "_bibliography/papers.bib, assets/pdf/main.pdf" # seperate multiple entries with ,
+  USERNAME: ${{ github.actor }}
+  ADDRESS_SUFFIX: users.noreply.github.com
+  TOKEN_NAME: GITHUB_TOKEN_CV # name of token defined in the target repo's settings, needed for private repos
+  THE_SERVER: ${{ github.server_url }}
+  PATH_SOURCE_CHECKOUT: temp_folder
+  THE_SECRET: ${{ secrets.TOKEN_NAME || 'default_value' }}
+
 on:
   push:
     branches:
@@ -16,26 +28,80 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Updating `papers.bib` file from my academic-CV repository
-        uses: wow-actions/download-upload@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          url: https://github.com/filippomazzoli/academic-CV/blob/master/TeX-files/papers.bib
-          dir: _bibliography
-      - name: Updating `cv.pdf` file from my academic-CV repository
-        uses: wow-actions/download-upload@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          url: https://github.com/filippomazzoli/academic-CV/blob/master/TeX-files/main.pdf
-          dir: assets/pdf
-      - name: Commit and Push the up-to-date files  `paper.bib` and `main.pdf`
+      - name: Check whether to automatically monitor
+        if: ${{ github.event_name != 'workflow_dispatch' && env.AUTOMATIC_MONITOR == false }}
         run: |
-         git config --global user.name "github-actions[bot]"
-         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-         git add -A
-         git diff-index --quiet HEAD || git commit -m 'Updated papers.bib and main.pdf from academic-CV'
-         git push
+          echo "Set not to run automatically. Exiting."
+          echo "exiting1=true" >> $GITHUB_ENV
+
+      - name: Checkout
+        if: env.exiting1 != 'true'
+        uses: actions/checkout@v3
+
+      - name: Checkout source with token and branch
+        if: env.exiting1 != 'true' && env.THE_SECRET != 'default_value' && env.SOURCE_BRANCH
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          ref: ${{ env.SOURCE_BRANCH }}
+          token: ${{ secrets[env.TOKEN_NAME] }}
+          path: ${{ env.PATH_SOURCE_CHECKOUT }}
+
+      - name: Checkout source with token but without branch
+        if: env.exiting1 != 'true' && env.THE_SECRET != 'default_value' && !env.SOURCE_BRANCH
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          token: ${{ secrets[env.TOKEN_NAME] }}
+          path: ${{ env.PATH_SOURCE_CHECKOUT }}
+
+      - name: Checkout source without token but with branch
+        if: env.exiting1 != 'true' && env.THE_SECRET == 'default_value' && env.SOURCE_BRANCH
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          ref: ${{ env.SOURCE_BRANCH }}
+          path: ${{ env.PATH_SOURCE_CHECKOUT }}
+
+      - name: Checkout source without token and without branch
+        if: env.exiting1 != 'true' && env.THE_SECRET == 'default_value' && !env.SOURCE_BRANCH
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          path: ${{ env.PATH_SOURCE_CHECKOUT }}
+
+      - name: Update
+        if: env.exiting1 != 'true'
+        run: |
+          cd $PATH_SOURCE_CHECKOUT
+          cp -u $FILES_NEW ../
+          cd ..
+
+      - name: Check for changes
+        if: env.exiting1 != 'true'
+        run: |
+          if git diff --quiet; then
+            echo "No changes detected. Exiting."
+            echo "exiting2=true" >> $GITHUB_ENV
+          fi
+          
+      - name: Commit
+        if: env.exiting1 != 'true' && env.exiting2 != 'true'
+        run: |
+          git config user.name "$USERNAME"
+          git config user.email "$USERNAME@$ADDRESS_SUFFIX"
+          git add $FILES_NEW
+          git commit -m "Pulled files from $THE_SERVER/$SOURCE_REPO."
+
+      - name: Push
+        if: env.exiting1 != 'true' && env.exiting2 != 'true'
+        run: |
+          if [ -n "$TARGET_BRANCH" ]; then
+            git push origin $TARGET_BRANCH
+          else
+            git push
+          fi
+
   deploy:
     needs: update
     # available images: https://github.com/actions/runner-images#available-images
