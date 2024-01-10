@@ -22,9 +22,14 @@ jobs:
         uses: robinraju/release-downloader@v1.8
         with: 
           repository: "filippomazzoli/academic-CV"
-          latest: true
           fileName: "TeX-files/papers.bib"
           out-file-path: "_bibliography"
+      - name: Updating `main.pdf` file from my academic-CV repository
+        uses: robinraju/release-downloader@v1.8
+        with: 
+          repository: "filippomazzoli/academic-CV"
+          fileName: "TeX-files/main.pdf"
+          out-file-path: "assets/pdf"
       - name: Commit and Push the up-to-date files  `paper.bib` and `main.pdf`
         run: |
          git config --global user.name "github-actions[bot]"
