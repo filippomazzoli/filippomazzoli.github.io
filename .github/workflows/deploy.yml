@@ -1,17 +1,18 @@
 name: deploy
-
 env:
   SOURCE_REPO: filippomazzoli/academic-CV
   AUTOMATIC_MONITOR: true
-  FILES: "TeX-files/papers.bib, TeX-files/main.pdf" # seperate multiple entries with ,
-  FILES_NEW: "papers.bib, main.pdf" # seperate multiple entries with ,
+  FILES: "*.txt,LICENSE" # seperate multiple entries with ,
+  FILES_NEW: "*.txt,LICENSE*" # seperate multiple entries with ,
+  EXTRA: mv LICENSE LICENSE_some_repo # do an extra command like renaming
   USERNAME: ${{ github.actor }}
   ADDRESS_SUFFIX: users.noreply.github.com
   TOKEN_NAME: GITHUB_TOKEN_CV # name of token defined in the target repo's settings, needed for private repos
+  # SOURCE_BRANCH: source_alternate_branch # uncomment to takes files from a non default source branch
+  # TARGET_BRANCH: target_alternate_branch # uncomment to monitor a non default target branch
+  # TARGET_PATH: target_alternate_path # uncomment to monitor a non default target branch
   THE_SERVER: ${{ github.server_url }}
-  SOURCE_BRANCH: main
-  TARGET_BRANCH: master/_bibliography
-  PATH_SOURCE_CHECKOUT: TeX-files/
+  PATH_SOURCE_CHECKOUT: temp_folder
   THE_SECRET: ${{ secrets.TOKEN_NAME || 'default_value' }}
 
 on:
@@ -76,6 +77,7 @@ jobs:
         if: env.exiting1 != 'true'
         run: |
           cd $PATH_SOURCE_CHECKOUT
+          $EXTRA
           cp -u $FILES_NEW ../
           cd ..
 
