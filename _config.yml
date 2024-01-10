@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Filippo
 middle_name:
-last_name: Mazzoli (he/him)
+last_name: Mazzoli
 email: filippo.mazzoli@mis.mpg.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Filippo Mazzoli's academic webpage.
