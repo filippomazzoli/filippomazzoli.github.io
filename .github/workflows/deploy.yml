@@ -3,13 +3,15 @@ name: deploy
 env:
   SOURCE_REPO: filippomazzoli/academic-CV
   AUTOMATIC_MONITOR: true
-  FILES: "_bibliography/papers.bib, assets/pdf/main.pdf" # seperate multiple entries with ,
-  FILES_NEW: "_bibliography/papers.bib, assets/pdf/main.pdf" # seperate multiple entries with ,
+  FILES: "papers.bib, main.pdf" # seperate multiple entries with ,
+  FILES_NEW: "papers.bib, main.pdf" # seperate multiple entries with ,
   USERNAME: ${{ github.actor }}
   ADDRESS_SUFFIX: users.noreply.github.com
   TOKEN_NAME: GITHUB_TOKEN_CV # name of token defined in the target repo's settings, needed for private repos
   THE_SERVER: ${{ github.server_url }}
-  PATH_SOURCE_CHECKOUT: blob/master/TeX-files/
+  SOURCE_BRANCH: main
+  TARGET_BRANCH: master/_bibliography
+  PATH_SOURCE_CHECKOUT: TeX-files/
   THE_SECRET: ${{ secrets.TOKEN_NAME || 'default_value' }}
 
 on:
