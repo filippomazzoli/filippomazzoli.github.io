@@ -20,13 +20,13 @@ jobs:
       - name: Updating `papers.bib` file from my academic-CV repository
         uses: MarketingPipeline/GitHub-Downloader-Action@main
         with:
-          repo: https://raw.githubusercontent.com/filippomazzoli/academic-CV/master/TeX-files/papers.bib
+          repo: filippomazzoli/academic-CV/master/TeX-files/papers.bib
           filepath: _bibliography
           overwrite: true
       - name: Updating `cv.pdf` file from my academic-CV repository
         uses: MarketingPipeline/GitHub-Downloader-Action@main
         with:
-          repo: https://raw.githubusercontent.com/filippomazzoli/academic-CV/master/TeX-files/main.pdf
+          repo: filippomazzoli/academic-CV/master/TeX-files/main.pdf
           filepath: assets/pdf
           overwrite: true
       - name: Commit and Push the up-to-date files  `paper.bib` and `main.pdf`
