@@ -9,6 +9,9 @@ on:
       - master
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
