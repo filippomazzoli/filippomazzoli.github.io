@@ -39,4 +39,4 @@ nav_order: 5
 
 ### Miscellaneous
 
-Here you can find my [Master thesis](https://drive.google.com/file/d/10smOiltlBMaXMZtwzUHtg_7LrSCCx9jF/view?usp=sharing) on the representation theory of the quantum Teichmüller space. To every native English speaker: my sincerest apologies for having barbarically murdered your language at the time (fortunately I got a bit better at it now).
+Here you can find my [Master thesis](https://drive.google.com/file/d/10smOiltlBMaXMZtwzUHtg_7LrSCCx9jF/view?usp=sharing) on the representation theory of the quantum Teichmüller space. To every native English speaker: my sincerest apologies for having barbarically murdered your language at the time (fortunately I got a bit better at it...).
