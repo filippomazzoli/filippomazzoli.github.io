@@ -10,4 +10,4 @@ related_publications:
 
 Here you can find my lecture notes: 
 + [Part 1 - Anti-de Sitter space](https://drive.google.com/file/d/12osdQR8PosGxoWbbbN_zFrzCpxjQt3xW/view?usp=sharing).
-+ TBA.
++ [Part 2 - Globally hyperbolic manifolds: definitions and examples](https://drive.google.com/file/d/12pI9L16XbVdpw87uP_cJL_JiyY_MCfbt/view?usp=sharing).
