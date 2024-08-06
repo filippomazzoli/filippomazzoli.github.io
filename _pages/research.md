@@ -24,6 +24,7 @@ Click [here](/publications/) to see the list of publications.
 
 ### Conferences co-organized
 
++ [AMS-UMI International Joint Meeting](https://umi.dm.unibo.it/jm-umi-ams/), session on _Anosov representations and higher Teichmüller theory_ (co-organized with [Sara Maloni](https://sites.google.com/view/sara-maloni) and [Andrea Tamburelli](https://pagine.dm.unipi.it/~a019210/index.html)), July 23rd-26th, 2024.
 + [Metrics on higher Teichmüller spaces](https://sites.google.com/view/frejus-2023/home), (co-organized with [Christian El Emam](https://math.uni.lu/elemam/) and [Nathaniel Sagman](https://sites.google.com/view/nathanielsagman/home)), August 28th-September 1st, 2023.
 + [NCNGT 2022 Conference](https://www.ncngt.org/), session on _Anosov representations_ (co-organized with [Gabriele Viaggi](https://www.mathi.uni-heidelberg.de/~gviaggi/)), September 19th-25th, 2022.
 + [Virginia Topology Conference 2021](https://filippomazzoli.github.io/conferences/VTC2021/index.html) (co-organized with [Thomas Koberda](https://sites.google.com/view/koberdat),  [Sara Maloni](https://sites.google.com/view/sara-maloni), and [Mark Pengitore](https://pengitore.weebly.com/)), November 5th-7th, 2021.
