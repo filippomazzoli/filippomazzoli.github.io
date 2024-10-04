@@ -13,6 +13,7 @@ This is the unofficial webpage of the AMS Special Session "Geometry, topology, a
 ### Speakers
 
 + [Fernando Al Assal](https://alassal.github.io/site/index.html)
++ [Jonathan DeWitt](https://math.umd.edu/~dewitt/) (joint with the Dynamical Systems special session)
 + [Parker Evans](https://sites.google.com/view/parker-evans/home)
 + [Stephen Mackes](https://sites.google.com/uic.edu/smacke5/home)
 + [Sara Maloni](https://sites.google.com/view/sara-maloni)
@@ -43,22 +44,22 @@ Click anywhere on the title of a talk to see the abstract.
 This work is paralleled by a work in progress which is hoped to provide a similar result in $$\chi(\pi_1(S),\mathrm{PSL}_d(\mathbb{C}))$$ and yield definite balls that are contained in the Anosov locus.
 {% enddetails %}
 
-11 am-3 pm, Room TBA: **Lunch break**.
+11 am-3 pm: **Lunch break**.
 
 {% details 3-3:50 pm, Room TBA: Andrew Sanders, **Axiom A Flows and Projective Anosov Subgroups**. %}
 *Abstract:* Given a torsion-free word hyperbolic group $$\Gamma$$ and a projective Anosov homomorphism $$\rho : \Gamma \to \mathrm{SL}(n,\mathbb{R})$$, we construct a canonical (usually non-compact) locally homogeneous contact manifold $$\mathcal{M}_\rho$$ equipped with an Axiom A flow $$\phi^t : \mathcal{M}_\rho \to \mathcal{M}_\rho$$ whose holonomy is equal to $$\rho$$. We will discuss several geometric and dynamical consequences: exponential mixing, existence of Ruelle-Pollicott resonant states, and a corresponding spectral gap. As an application, we obtain the exponential mixing of the geodesic flow associated to the Hilbert metric on a strictly convex real projective manifold. This is joint work with Daniel Monclair and Benjamin Delarue.
 {% enddetails %}
 
-{% details 3:50-4:40 pm, Room TBA: [](), **Title**. %}
-*Abstract:*
+{% details 3:50-4:40 pm, Room TBA: [Jonathan DeWitt](https://math.umd.edu/~dewitt/), **Expanding on average random dynamics on surfaces** (joint with the Dynamical Systems special session). %}
+*Abstract:* We consider exponential mixing for volume preserving random dynamical systems on surfaces. Suppose that $$(f_1,\dots,f_m)$$ is a tuple of volume preserving diffeomorphisms of a closed surface $$M$$. We now consider the uniform Bernoulli random dynamical system that this tuple generates on $$M$$. We assume that this tuple satisfies a condition called being “expanding on average," which means that there exist $$C,N > 0$$ such that $$\mathbb{E}[\ln\lvert D f^N v\rvert]>C$$ for all unit tangent vectors $$v$$. From this assumption we show quenched exponential equidistribution as well as quenched exponential mixing. (This is joint work with Dmitry Dolgopyat.)
 {% enddetails %}
 
 {% details 4:40-5:20 pm, Room TBA: [Giuseppe Martone](https://sites.google.com/view/giuseppemartone/home), **Correlation theorem and cusped Hitchin representations**. %}
 *Abstract:* We will discuss a correlation theorem for pairs of locally Hölder continuous potentials with strong entropy gaps at infinity on a topologically mixing countable Markov shift with the BIP property. This extends a result of Lalley on shifts of finite type, and we will explain its application to the dynamics of (pairs of) Hitchin representations of a punctured surface. This talk is based on joint work in progress with Lien-Yung Nyima Kao.
 {% enddetails %}
 
-{% details 5:20-6:10 pm: [](), **Title**. %}
-*Abstract:*
+{% details 5:20-6:10 pm: [William Wood](https://william-wood.org/), **Geometry and Boundary of the Hyperbolic Locus** (joint with the Dynamical Systems special session). %}
+*Abstract:* In this talk we discuss the geometry of the hyperbolic locus in $$SL(2,\mathbb{R})^4$$. The hyperbolic locus is the open set in $$SL(2,\mathbb{R})^n$$, consisting of all n-tuples that would correspond to a uniformly hyperbolic set of matrices (of size n). In work by Avila, Bochi, and Yoccoz, the geometry of the hyperbolic locus is studied, and the geometry is explicitly defined in $$SL(2,\mathbb{R})^2$$. Open questions were posed about the boundary of the hyperoblic locus in higher dimensions, and we address two of the questions here.
 {% enddetails %}
 
 <br>
