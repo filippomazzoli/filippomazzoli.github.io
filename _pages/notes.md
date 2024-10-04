@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /notes/
-title: some notes
+title: notes
 description: Still under construction
 nav: true
 nav_order: 5
