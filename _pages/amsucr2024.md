@@ -22,6 +22,7 @@ This is the unofficial webpage of the AMS Special Session "Geometry, topology, a
 + [Zach Virgilio](https://mathdept.ucr.edu/people/zachary-virgilio)
 + [Teddy Weisman](https://websites.umich.edu/~tjwei/)
 + Vicky Wen
++ [William Wood](https://william-wood.org/) (joint with the Dynamical Systems special session)
 + [Neza Zager Korenjak](https://neznez.github.io/index.html)
 
 
