@@ -139,6 +139,8 @@ Our goal is to develop a useful notion of sublinear Morse-ness of the action of 
 *Abstract:* We show that every positive Anosov representation of a free group into $$\mathrm{SO}(2n,2n-1)$$ admits cocycles giving proper actions on affine $$(4n-1)$$-space. We also exhibit fundamental domains for these actions. This is joint work with Jean-Philippe Burelle.
 {% enddetails %}
 
+<div style="height:10px;font-size:5px;">&nbsp;</div>
+
 ##### 11am-12pm: 3rd Plenary talk, [University Lecture Hall](https://maps.app.goo.gl/J7yTzUBKcFbVrM7g9).
 
 {% details [Matthew D. Blair](https://math.unm.edu/~blair/), **Eigenfunction Bounds on Riemannian Manifolds of Nonpositive Curvature**. %}
