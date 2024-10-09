@@ -57,7 +57,7 @@ This work is paralleled by a work in progress which is hoped to provide a simila
 
 <div style="height:10px;font-size:5px;">&nbsp;</div>
 
-##### 11am-12pm: 1st Plenary talk, , [University Lecture Hall](https://maps.app.goo.gl/J7yTzUBKcFbVrM7g9).
+##### 11am-12pm: 1st Plenary talk, [University Lecture Hall](https://maps.app.goo.gl/J7yTzUBKcFbVrM7g9).
 
 {% details [Hannah K. Larson](https://math.berkeley.edu/~hlarson/), **Cohomology of Moduli Spaces of Curves**. %}
 *Abstract:* The moduli space $$M_g$$ of genus $$g$$ curves (or Riemann surfaces) is a central object of study in algebraic geometry. Its cohomology is important in many fields. For example, the cohomology of $$M_g$$ is the same as the cohomology of the mapping class group, and is also related to spaces of modular forms. Using its properties as a moduli space, Mumford defined a distinguished subring of the cohomology of $$M_g$$ called the tautological ring. The definition of the tautological ring was later extended to the compactification $$\bar{M}_g$$ and the moduli spaces with marked points $$\bar{M}_{g,n}$$. While the full cohomology ring of $$\bar{M}_{g,n}$$ is quite mysterious, the tautological subring is relatively well understood, and conjecturally completely understood. In this talk, I’ll ask the question: which cohomology groups $$H^k(\bar{M}_{g,n})$$ are tautological? And when they are not, how can we better understand them? This is joint work with Samir Canning and Sam Payne.
@@ -69,7 +69,7 @@ This work is paralleled by a work in progress which is hoped to provide a simila
 
 <div style="height:6px;font-size:5px;">&nbsp;</div>
 
-##### 2-3pm: 2nd Plenary talk, , [University Lecture Hall](https://maps.app.goo.gl/J7yTzUBKcFbVrM7g9).
+##### 2-3pm: 2nd Plenary talk, [University Lecture Hall](https://maps.app.goo.gl/J7yTzUBKcFbVrM7g9).
 
 {% details [Tianyi Zheng](https://mathweb.ucsd.edu/~tiz161/), **Random walks on self-similar groups: boundary behavior and amenability**. %}
 *Abstract:* Self-similar groups have emerged as a significant source of "exotic" examples in group theory, and they are intriguing objects to study. Random walks provide useful tools for understanding the structure of such groups, with applications to amenability problems, volume growth estimates, and more. In this talk, we will focus on iterated monodromy groups and discuss how the geometry of the associated limit set is related to the boundary behavior of random walks on the group. We will show that the Poisson boundary of symmetric finite range random walk is trivial when the limit set has Ahlfors-regular conformal dimension strictly less than 2. This is based on joint work with N. Matte Bon and V. Nekrashevych.
