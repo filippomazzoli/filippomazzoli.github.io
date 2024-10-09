@@ -153,15 +153,15 @@ A seminal result by Sogge in the 1980s provides $$L^p$$ bounds on eigenfunctions
 
 ## How to get to Riverside
 
-If you are landing at Ontario International Airport, the best way to get to Riverside (and your hotel) is by taking an Uber or a Lyft. Usually the waiting time is not long, but make sure to check both apps, sometimes Uber is not very reliable. The same suggestions apply to go from Riverside to Ontario's airport.
+If you land at Ontario International Airport, the best way to get to Riverside (and your hotel) is by taking an Uber or a Lyft. Usually, the waiting time is not long, but make sure to check both apps; sometimes, Uber is not very reliable. The same suggestions apply to going from Riverside to Ontario’s airport.
 
-To go from [Courtyard Riverside UCR Hotel](https://maps.app.goo.gl/DBfYYo3Rn7BqqkNW8) to the university campus, you can either go by walk (approx 20 minutes) or catch the bus line 1. Your stop is UCR-Bannockburn Village. To go from your hotel or from the campus to downtown Riverside, you can take the bus line 1 from UCR-Bannockburn Village and stop at University Ave-Market St.
+To go from [Courtyard Riverside UCR Hotel](https://maps.app.goo.gl/DBfYYo3Rn7BqqkNW8) to the university campus, you can either walk there (approx 20 minutes) or catch the bus line 1. Your stop is UCR-Bannockburn Village. To go from your hotel or the campus to downtown Riverside, you can take the bus line 1 from UCR-Bannockburn Village and stop at University Ave-Market St.
 
 ## Dining
 
-Unfortunately several of the dining options on campus are not available during the weekend. However, at 10-15 minutes by walk from our seminar room there are a few restaurants that we can go to in [this area](https://maps.app.goo.gl/woByKY2gg6mcUwTQ6).
+Unfortunately several of the dining options on campus are not available during the weekend. However, at a 10-15-minute walk from our seminar room, there are a few restaurants that we can go to in [this area](https://maps.app.goo.gl/woByKY2gg6mcUwTQ6).
 
-On Saturday night, we are planning to go to downtown to have dinner (and maybe a drink, for the ones that are interested). Here is a good [tacos place](https://maps.app.goo.gl/PYRoELuRQK9tAWyM8) that we could visit. If we don't find enough place for everyone there (we cannot reserve a table in advance at Tio's Tacos, unfortunately), we can just cross the street and move to the [Food Lab](https://maps.app.goo.gl/j6TFC6vWgF7NGoCs6).
+On Saturday night, we are planning to go downtown to have dinner (and maybe a drink, for the ones who are interested). Here is a good [taco place](https://maps.app.goo.gl/PYRoELuRQK9tAWyM8) that we could visit. If we don’t find enough space for everyone there (we cannot reserve a table in advance at Tio’s Tacos, unfortunately), we can just cross the street and move to the [Food Lab](https://maps.app.goo.gl/j6TFC6vWgF7NGoCs6).
 
 #### Organizers
 
