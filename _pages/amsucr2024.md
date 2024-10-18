@@ -21,7 +21,6 @@ This is the unofficial webpage of the AMS Special Session "Geometry, topology, a
 + Andrew Sanders
 + [Zach Virgilio](https://mathdept.ucr.edu/people/zachary-virgilio)
 + [Teddy Weisman](https://websites.umich.edu/~tjwei/)
-+ Vicky Wen
 + [William Wood](https://william-wood.org/) (joint with the Dynamical Systems special session)
 + [Neza Zager Korenjak](https://neznez.github.io/index.html)
 
@@ -107,18 +106,10 @@ This work is paralleled by a work in progress which is hoped to provide a simila
 
 ### Sunday, October 27
 
-##### 8:30-11am: Morning session, [Humanities building](https://maps.app.goo.gl/t4hCaEpVSCnhs3pu7) - Room 1403.
+##### 9-11am: Morning session, [Humanities building](https://maps.app.goo.gl/t4hCaEpVSCnhs3pu7) - Room 1403.
 
-{% details 8:30-9 am: [Parker Evans](https://sites.google.com/view/parker-evans/home), **Geometric Structures for the $$G_2'$$-Hitchin Component**. %}
+{% details 9-9:30 am: [Parker Evans](https://sites.google.com/view/parker-evans/home), **Geometric Structures for the $$G_2'$$-Hitchin Component**. %}
 *Abstract:*  We discuss an explicit geometric structures, i.e., $$(G,X)$$-structures, interpretation of the $$G_2'$$-Hitchin component of a closed, oriented surface $$S$$ of genus $$g \geq 2$$. A definition of  will be given as well as appropriate background and motivation for the problem. Then, using equivariant almost-complex curves in the pseudosphere $$\hat{\mathbb{S}}^{2,4}$$, we describe the construction of the geometric structures for $$G_2'$$-Hitchin representations. Time permitting, we remark on how these structures are different than those of Guichard-Wienhard.
-{% enddetails %}
-
-<div style="height:6px;font-size:5px;">&nbsp;</div>
-
-{% details 9-9:30 am: Vicky Wen, **Sublinear Morseness in Higher Rank Symmetric space**. %}
-*Abstract:* Ever since Gromov showed the quasi isometries betwen hyperbolic spaces induce homeomorphisms on their visual boundaries, it has been common practice to use boundary of a metric space and use it to study the groups that act on the space isometrically. The problem with this method is that, once we leave the hyperbolic space, the visual boundary of a metric space may not be QI invariant any more.
-This motivated people to try to find good characterizations of hyperbolic-like directions in non-hyperbolic spaces. For example, people have studied the Morse boundary and contracting boundary of CAT(0) spaces. However, this task is particularly hard to accomplish in higher rank symmetric spaces. The existence of an isometrically embedded copy of $$\mathbb{R}^n$$ for $$n \geq 2$$ around every geodesic segment precludes any plausible characterizations for hyperbolicity being satisfied.
-Our goal is to develop a useful notion of sublinear Morse-ness of the action of a discrete subgroup $$\Gamma \subset Isom(X)$$ on a higher rank symmetric space $X$ and show that this gives rise to a well defined, QI invariant boundary that has full measure with respect to the Patterson-Sullivan measure defined by $$\Gamma$$.
 {% enddetails %}
 
 <div style="height:6px;font-size:5px;">&nbsp;</div>
