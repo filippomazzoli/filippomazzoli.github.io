@@ -11,7 +11,6 @@ Click [here](/publications/) to see the list of publications.
 
 ### Some talks
 
-
 + ***Introduction to minimal surfaces and harmonic maps***, Workshop "Minimal surfaces in symmetric spaces and Labourie's conjecture" in Autrans. August 22-26, 2022 ([notes](https://drive.google.com/file/d/1fxvrFa1ogJ2LM0JLW-QivMh0XWdTCWyZ/view?usp=sharing))
 + ***Shear-bend coordinates for pleated surfaces in PSL(d,C)***, AMS-SMF-EMS Special Meeting in Grenoble. July 20, 2022 ([slides](https://drive.google.com/file/d/15tBP2lM8juvsnd7KZUg88UxZuVCbIR8Y/view?usp=sharing)).
 + ***A para-hyperKähler structure on the space of GHMC anti-de Sitter 3-manifolds***, Heidelberg University. June 10, 2022 ([slides](https://drive.google.com/file/d/1YfFiV57Z1mnRmT_wn9kP2hpBw370jx89/view?usp=sharing)).
@@ -24,6 +23,7 @@ Click [here](/publications/) to see the list of publications.
 
 ### Conferences co-organized
 
++ [2024 Fall Western Sectional Meeting](https://www.ams.org/meetings/sectional/2304_program.html) at [UCR](https://mathdept.ucr.edu/), session on _Geometry, Topology and Dynamics of Character Varieties_ (co-organized with [Brian Collier](https://sites.google.com/view/brian-collier/home), unofficial [webpage](/amsucr2024/)), October 26th-27th, 2024.
 + [AMS-UMI International Joint Meeting](https://umi.dm.unibo.it/jm-umi-ams/), session on _Anosov representations and higher Teichmüller theory_ (co-organized with [Sara Maloni](https://sites.google.com/view/sara-maloni) and [Andrea Tamburelli](https://pagine.dm.unipi.it/~a019210/index.html)), July 23rd-26th, 2024.
 + [Metrics on higher Teichmüller spaces](https://sites.google.com/view/frejus-2023/home), (co-organized with [Christian El Emam](https://math.uni.lu/elemam/) and [Nathaniel Sagman](https://sites.google.com/view/nathanielsagman/home)), August 28th-September 1st, 2023.
 + [NCNGT 2022 Conference](https://www.ncngt.org/), session on _Anosov representations_ (co-organized with [Gabriele Viaggi](https://www.mathi.uni-heidelberg.de/~gviaggi/)), September 19th-25th, 2022.

@@ -3,8 +3,7 @@ layout: page
 permalink: /amsucr2024/
 title: AMS@UCR
 description:
-nav: true
-nav_order: 6
+nav: false
 ---
 
 This is the unofficial webpage of the AMS Special Session "Geometry, topology, and dynamics of character varieties", which will take place at UC Riverside on October 26-27, 2024. Here is a link to the official webpage of the 2024 [Fall Western AMS Sectional Meeting](https://www.ams.org/meetings/sectional/2304_program_ss24.html#title).
