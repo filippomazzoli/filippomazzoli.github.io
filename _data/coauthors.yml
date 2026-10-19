@@ -1,10 +1,10 @@
 "Choudhury":
 - firstname: ["Diptaishik"]
-  url: https://sites.google.com/view/diptaishikchoudhury
+  url: https://ymsc.tsinghua.edu.cn/en/info/1035/3022.htm
 
 "El Emam":
   - firstname: ["Christian"]
-    url: https://math.uni.lu/elemam/
+    url: https://christianelemam.github.io
 
 "Tamburelli":
   - firstname: ["Andrea"]
@@ -12,11 +12,11 @@
 
 "Seppi":
   - firstname: ["Andrea"]
-    url: http://seppi.perso.math.cnrs.fr/
+    url: https://andreaseppi.github.io
 
 "Viaggi":
   - firstname: ["Gabriele"]
-    url: https://sites.google.com/uniroma1.it/gabriele-viaggi/home?authuser=1
+    url: https://pagine.dm.unipi.it/~a058753/index.html
 
 "Zhang":
   - firstname: ["Tengren"]
@@ -29,3 +29,7 @@
 "Maloni":
   - firstname: ["Sara"]
     url: https://sites.google.com/view/sara-maloni
+  
+"Rungi":
+  - firstname: ["Nicholas"]
+    url: https://sites.google.com/view/nicholasrungiwebpage/home-page
